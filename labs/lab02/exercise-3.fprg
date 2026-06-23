@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-3"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-23 03:36:46 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzoxOTozOSBQTTsyNzYx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzozNjo0NiBQTTs1OzI4NzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TotalCosts" type="Real" array="False" size=""/>
+            <declare name="TotalCostsMonth" type="Real" array="False" size=""/>
+            <declare name="Nohours" type="Integer" array="False" size=""/>
+            <declare name="acwatt" type="Integer" array="False" size=""/>
+            <input variable="Nohours"/>
+            <assign variable="TotalCosts" expression="Nohours*acwatt/1000*0.218"/>
+            <assign variable="TotalCostsMonth" expression="TotalCosts*30"/>
+            <output expression="TotalCosts and TotalCostsMonth" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

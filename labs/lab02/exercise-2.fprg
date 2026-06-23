@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-23 03:23:19 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzowMDowMSBQTTsyNzQw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzoyMzoxOSBQTTs0OzI4NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Timberlenght" type="Real" array="False" size=""/>
+            <declare name="Totaltimberlenght" type="Real" array="False" size=""/>
+            <declare name="PriceperMeter" type="Real" array="False" size=""/>
+            <declare name="TotalPrice" type="Real" array="False" size=""/>
+            <input variable="Timberelenght"/>
+            <assign variable="Totaltimberlenght" expression="Timberlenght*1.1/100"/>
+            <assign variable="TotalPrice" expression="Totaltimberlenght*Pricepermeter"/>
+            <output expression="TotalPrice and TotalTimberlenght" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
