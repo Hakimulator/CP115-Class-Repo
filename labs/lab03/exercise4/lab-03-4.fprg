@@ -4,12 +4,19 @@
         <attribute name="name" value="lab-03-4"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-06-30 03:12:59 PM"/>
+        <attribute name="saved" value="2026-06-30 03:20:24 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoxMjowMyBQTTsyNzQz"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoxMjo1OSBQTTsxOzI4NjI="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoxNTo0MSBQTTsyO1VzZXI7REVTS1RPUC1KMzlQMU5UOzIwMjYtMDYtMzA7MDI6MDM6MTcgUE07bGFiLTAzLTEuZnByZzs2NzQw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoyMDoyNCBQTTsyOzI4NTQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="pages" type="Integer" array="False" size=""/>
+            <input variable="pages"/>
+            <declare name="totalCost" type="Integer" array="False" size=""/>
+            <assign variable="totalCost" expression="pages*0.2+3"/>
+            <output expression="totalCost" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
