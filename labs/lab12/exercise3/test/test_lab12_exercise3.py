@@ -76,7 +76,8 @@ def test_grade_filter(exercise_path, grades):
     context = f"input grades={grades}"
     inputs = "".join(f"{g}\n" for g in grades) + "-1\n"
     output = run_exercise(exercise_path, inputs)
-    line1, line2 = read_lines(output, 2, context)
+    lines = read_lines(output, 2, context)
+    line1, line2 = (line.strip() for line in lines)
 
     exp_count, exp_avg = grade_filter(grades)
 

@@ -10,7 +10,13 @@ while number !=0:
     previous_num=number
     count+=1
     number = int(input())
-    
+     
+
+
+
+
+
+     
 
 
 print(count)
